@@ -22,7 +22,7 @@ const Header = () => (
           Nosotros
         </AnchorLink>
         <AnchorLink className="px-4" href="#planacademico">
-          Plan Académico
+          Oferta Educativa
         </AnchorLink>
         <AnchorLink className="px-4" href="#nuestroequipo">
           Nuestro Equipo

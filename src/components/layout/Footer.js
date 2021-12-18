@@ -13,6 +13,13 @@ const Footer = () => (
   <footer class="bg-black pt-10 sm:mt-10 pt-10" id="#footermain">
     <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
       <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+        <img
+          src="https://res.cloudinary.com/dslc2vjcz/image/upload/v1639607884/logo_versiones-03_Blanco_1_cd3rg4.svg"
+          style={{ height: 125 }}
+        />
+      </div>
+
+      <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
         <div class="text-xs uppercase text-gray-400 font-medium mb-6">U International</div>
 
         <a
@@ -51,6 +58,7 @@ const Footer = () => (
           Email: informes@iinternacional.edu.mx
         </p>
       </div>
+      
 
       {/* <div class="md:flex-auto md:flex-row-reverse mt-2 flex-column flex bg-indigo-300"> */}
       {/* <div class="md:flex-auto md:flex-row-reverse p-10 flex-column p-5 w-1/2 sm:w-4/12 md:w-3/12 bg-indigo-300">
@@ -67,10 +75,6 @@ const Footer = () => (
           flex-col md:flex-row max-w-6xl"
       >
         <div class="mt-2 content-center">
-          <img
-            src="https://res.cloudinary.com/dslc2vjcz/image/upload/v1639607884/logo_versiones-03_Blanco_1_cd3rg4.svg"
-            style={{ height: 125 }}
-          />
           Copyright © 2021 - U International Privacidad, cookies y condiciones legales | Navegación
         </div>
 

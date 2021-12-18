@@ -24,7 +24,7 @@ const HeaderCarrera = () => (
           Nuestros Docentes
         </AnchorLink>
         <AnchorLink className="px-4" href="#planacademico">
-          Plan Académico
+          Oferta Educativa
         </AnchorLink>
         <AnchorLink className="px-4" href="#requisitos">
           Requisitos

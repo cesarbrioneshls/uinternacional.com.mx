@@ -17,6 +17,11 @@ import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'gatsby';
 import './test.css';
 
+import folleto1 from '../pdf/folleto1.pdf';
+import folleto2 from '../pdf/folleto2.pdf';
+import folleto3 from '../pdf/folleto3.pdf';
+import folleto4 from '../pdf/folleto4.pdf';
+
 import { FaHandshake } from 'react-icons/fa';
 import { BiTimer } from 'react-icons/bi';
 import { GiThreeFriends, GiStairsGoal } from 'react-icons/gi';
@@ -170,7 +175,7 @@ const Index = () => (
               class=" title-font mb-2 text-4xl font-extrabold leading-10 tracking-tight text-left sm:text-5xl sm:leading-none md:text-6xl"
               id="planacademico"
             >
-              Plan Académico
+              Oferta Educativa
             </h1>
           </div>
           <div class="flex flex-wrap -m-4">
@@ -183,9 +188,21 @@ const Index = () => (
                 />
                 <p class="text-center pt-3 font-bold">
                   <br />
-                  Doctorado En Competencias Docentes Para La Transformación Digital
+                  Doctorado en Competencias Docentes para la Transformación Digital
                 </p>
-                <Link
+
+                <a
+                  href="https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto+-+Doctorado+en+Tecnolog%C3%ADas+de+la+Transformaci%C3%B3n+Digital.pdf"
+                  target="_blank"
+                >
+                  <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
+                    <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                      Conoce más ...
+                    </button>
+                  </div>
+                </a>
+
+                {/* <Link
                   activeStyle={{
                     color: 'red',
                     fontWeight: 700,
@@ -197,7 +214,7 @@ const Index = () => (
                       Conoce más ...
                     </button>
                   </div>
-                </Link>
+                </Link> */}
               </div>
             </div>
             <div class="xl:w-1/3 md:w-1/2 p-4">
@@ -208,10 +225,10 @@ const Index = () => (
                   class="rounded-xl"
                 />
                 <p class="text-center pt-3 font-bold">
-                  Doctorado En Tecnologías De La Transformación Digital
+                  Doctorado en Tecnologías de la Transformación Digital
                 </p>
                 <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
-                  <Link
+                  {/* <Link
                     activeStyle={{
                       color: 'red',
                       fontWeight: 700,
@@ -223,7 +240,14 @@ const Index = () => (
                         Conoce más ...
                       </button>
                     </div>
-                  </Link>
+                  </Link> */}
+                  <a href="https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto+-+Doctorado+en+Tecnolog%C3%ADas+de+la+Transformaci%C3%B3n+Digital.pdf" target="_blank">
+                    <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Conoce más ...
+                      </button>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -235,10 +259,20 @@ const Index = () => (
                   class="rounded-xl"
                 />
                 <p class="text-center pt-3 font-bold">
-                  Doctorado Dirección e Innovación Digital En Los Sistemas De Salud
+                  Doctorado en Dirección e Innovación Digital en los Sistemas de Salud
                 </p>
                 <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
-                  <Link
+                  <a
+                    href="https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto+-+Direcci%C3%B3n+e+Innovaci%C3%B3n+Digital+en+los+Sistemas+de+Salud.pdf"
+                    target="_blank"
+                  >
+                    <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Conoce más ...
+                      </button>
+                    </div>
+                  </a>
+                  {/* <Link
                     activeStyle={{
                       color: 'red',
                       fontWeight: 700,
@@ -250,7 +284,7 @@ const Index = () => (
                         Conoce más ...
                       </button>
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -262,10 +296,20 @@ const Index = () => (
                   class="rounded-xl"
                 />
                 <p class="text-center pt-3 font-bold">
-                  Maestría En Compotencias Docentes Para La Transformación Digital
+                  Maestría en Compotencias Docentes para la Transformación Digital
                 </p>
                 <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
-                  <Link
+                  <a
+                    href="https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto+-+Maestr%C3%ADa+en+Competencias+Docentes+para+la+Transformaci%C3%B3n+Digital.pdf"
+                    target="_blank"
+                  >
+                    <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Conoce más ...
+                      </button>
+                    </div>
+                  </a>
+                  {/* <Link
                     activeStyle={{
                       color: 'red',
                       fontWeight: 700,
@@ -277,7 +321,7 @@ const Index = () => (
                         Conoce más ...
                       </button>
                     </div>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>
@@ -290,10 +334,10 @@ const Index = () => (
                 />
                 <p class="text-center pt-3 font-bold">
                   <br />
-                  Licenciatura En Pedagogía
+                  Licenciatura en Pedagogía
                 </p>
                 <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
-                  <Link
+                  {/* <Link
                     activeStyle={{
                       color: 'red',
                       fontWeight: 700,
@@ -305,7 +349,17 @@ const Index = () => (
                         Conoce más ...
                       </button>
                     </div>
-                  </Link>
+                  </Link> */}
+                  <a
+                    href="https://pwa-public.s3.us-west-1.amazonaws.com/oferta-educativa/Folleto+-+Licenciatura+en+Pedagog%C3%ADa.pdf"
+                    target="_blank"
+                  >
+                    <div class="w-full md:w-full bg-white flex flex-col space-y-2 p-3">
+                      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        Conoce más ...
+                      </button>
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
