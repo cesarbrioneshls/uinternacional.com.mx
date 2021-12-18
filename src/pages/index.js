@@ -54,9 +54,29 @@ const Index = () => (
             para el quehacer profesional
           </p>
           <p className="mt-8 md:mt-12">
-            <Button size="lg" href="#testimonials">
+            {/* <Button size="lg" href="#testimonials">
               Contáctanos
-            </Button>
+            </Button> */}
+
+            <Link
+              activeStyle={{
+                color: 'red',
+                fontWeight: 700,
+              }}
+              to="/Formulario"
+            >
+              <button
+                href="#footermain"
+                className="bg-indigo-500
+              w-full
+          hover:bg-indigo-600
+          rounded
+          p-3
+          text-white"
+              >
+                Contáctanos
+              </button>
+            </Link>
           </p>
         </div>
         <div className="pl-10 content-center pt-5 ">
@@ -162,6 +182,7 @@ const Index = () => (
                   class="rounded-xl"
                 />
                 <p class="text-center pt-3 font-bold">
+                  <br />
                   Doctorado En Competencias Docentes Para La Transformación Digital
                 </p>
                 <Link
@@ -327,7 +348,18 @@ const Index = () => (
           }}
           to="/Formulario"
         >
-          <Button size="xl">Inscríbete ahora</Button>
+          <button
+            className="bg-indigo-500
+          hover:bg-indigo-600
+          rounded
+          p-3
+          text-white"
+            onClick={() => {
+              console.log('pressed!');
+            }}
+          >
+            ¡Inscríbete Ahora!
+          </button>
         </Link>
       </p>
     </section>

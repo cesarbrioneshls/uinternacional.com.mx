@@ -6,10 +6,11 @@ import {
   BsTwitter,
   BsYoutube,
   BsLinkedin,
+  BsWhatsapp,
 } from 'react-icons/bs';
 
 const Footer = () => (
-  <footer class="bg-black pt-10 sm:mt-10 pt-10">
+  <footer class="bg-black pt-10 sm:mt-10 pt-10" id="#footermain">
     <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
       <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
         <div class="text-xs uppercase text-gray-400 font-medium mb-6">U International</div>
@@ -82,6 +83,11 @@ const Footer = () => (
           <div class="w-6 mx-1 mr-5">
             <a href="https://www.instagram.com/uinternacionalags/" target="_blank">
               <BsInstagram size={25} />
+            </a>
+          </div>
+          <div class="w-6 mx-1 mr-5">
+            <a href="https://wa.me/524493127372" target="_blank">
+              <BsWhatsapp size={25} />
             </a>
           </div>
         </div>

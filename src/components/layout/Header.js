@@ -42,8 +42,8 @@ const Header = () => (
           to="/Formulario"
         >
           <button
-            className="bg-primary
-          hover:bg-primary-darker
+            className="bg-indigo-500
+          hover:bg-indigo-600
           rounded
           p-3
           text-white"

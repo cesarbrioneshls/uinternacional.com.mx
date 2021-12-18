@@ -6,6 +6,7 @@ import {
   BsTwitter,
   BsYoutube,
   BsLinkedin,
+  BsWhatsapp,
 } from 'react-icons/bs';
 
 const FooterCarrera = () => (
@@ -82,6 +83,11 @@ const FooterCarrera = () => (
           <div class="w-6 mx-1 mr-5">
             <a href="https://www.instagram.com/uinternacionalags/" target="_blank">
               <BsInstagram size={25} />
+            </a>
+          </div>
+          <div class="w-6 mx-1 mr-5">
+            <a href="https://wa.me/524493127372" target="_blank">
+              <BsWhatsapp size={25} />
             </a>
           </div>
         </div>

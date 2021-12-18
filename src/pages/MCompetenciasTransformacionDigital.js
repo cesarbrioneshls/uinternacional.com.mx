@@ -45,7 +45,7 @@ function MCompetenciasTransformacionDigital() {
                 </div>
                 <div>
                   <p class="text-2xl font-bold">Modalidad</p>
-                  <p class="text-sm">En linea</p>
+                  <p class="text-sm">En línea</p>
                 </div>
               </div>
             </div>
