@@ -1,0 +1,9 @@
+.img-responsive {
+  height: 65px;
+  width: 100;
+}
+
+.overlapping {
+  z-index: 1000;
+}
+
