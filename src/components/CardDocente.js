@@ -23,8 +23,8 @@ const CardDocente = ({ className, children }) => (
       <h6 class="mt-2 text-sm font-medium">Doctora en Ingeniería Telemática</h6>
       <div class="sm:w-3/5 p-2 w-3/2">
         <p class="text-xs text-gray-600 text-center mt-3">
-          Doctora en Ingeniería Telemática por la Universidad Politécnica de Madrid, actualmente es
-          Directora de E-learning Development. Ha desarrollado modelos educativos en línea exitosos.
+          Doctora en Ingeniería Telemática por la Universidad Politécnica de Madrid, actualmente es
+          Directora de E-learning Development. Ha desarrollado modelos educativos en línea exitosos.
           Se distingue por ser una mujer proactiva, emprendedora, visionaria y responsable,
           apasionada por la investigación y la educación.
         </p>
